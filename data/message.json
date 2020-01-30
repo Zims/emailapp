@@ -1,0 +1,25 @@
+[{
+        "subject": "First message",
+        "body": "First msg text can be longer"
+    },
+    {
+        "subject": "Second message",
+        "body": "Second msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longerSecond msg text can be longer"
+    },
+    {
+        "subject": "third message",
+        "body": "third msg text can be longer"
+    },
+    {
+        "subject": "forth message",
+        "body": "forth msg text can be longer"
+    },
+    {
+        "subject": "fifth message",
+        "body": "fifth msg text can be longerrr"
+    },
+    {
+        "subject": "test message",
+        "body": "forth msg text can be longer test"
+    }
+]
