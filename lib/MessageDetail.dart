@@ -13,8 +13,11 @@ class MessageDetail extends StatelessWidget {
       appBar: AppBar(
         title: Text(this.subject),
       ),
-      body: Center(
-        child: Text(this.body),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Center(
+          child: Text(this.body),
+        ),
       ),
     );
   }
