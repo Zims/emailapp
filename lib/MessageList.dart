@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:emailapp/MessgeDetail.dart';
 import 'package:flutter/material.dart';
 import 'Message.dart';
 
@@ -77,6 +78,12 @@ class _MessageListState extends State<MessageList> {
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       ),
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (BuildContext context) {
+                          return MessageDetail();
+                        }));
+                      },
                     );
                   },
                 );
